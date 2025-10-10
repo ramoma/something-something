@@ -8,6 +8,13 @@ public class App {
 
         };
 
+        for(int a[] : le_2darray){
+            for(int b : a){
+                System.out.print(a[b - 1]);
+            }
+            System.out.println();
+        }
+
         for(int i = 0; i < le_2darray[i].length; ++i){
             int sum = 0;
             for(int j = 0; j < le_2darray[j].length ; ++j ){
