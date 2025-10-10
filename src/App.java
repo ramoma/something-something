@@ -15,5 +15,13 @@ public class App {
             System.out.println();
         }
 
+        for(int i = 0; i < le_2darray[i].length; ++i){
+            int sum = 0;
+            for(int j = 0; j < le_2darray[j].length ; ++j ){
+                sum += le_2darray[i][j];
+            }
+            System.out.println(sum);
+            System.out.println();
+        }
     }
 }
